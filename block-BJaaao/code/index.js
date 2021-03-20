@@ -27,16 +27,30 @@ alert(`The value of num1 is ${num1} and the value of num2 is ${num2}`);
   - Using confirm check if user is adult or not and store the value in `isAdult`
   - Alert message `I am [userName] a [userProfession]`
   - Log the message `I am [userName] a [userProfession]`
-  - Alet message `Username: [userName]
+  - Alert message `Username: [userName]
     Adult: [isAdult]
     Profession: [userProfession]` (it should be in three different lines)
   - Log the message using console.log `Username: [userName]
     Adult: [isAdult]
     Profession: [userProfession]` (it should be in three different lines)
 */
-prompt("Please Enter your Name ");
+let userName = prompt("Please Enter your Name ");
 
+let userProfession = prompt("Please Enter you Proession");
 
+let isAdult = confirm ("Are you an Adult?");
+
+alert(`I am ${userName} a ${userProfession}`);
+
+console.log(`I am ${userName} a ${userProfession}`);
+
+alert(`Username: ${userName}
+       Adult: ${isAdult}
+       Profession: ${userProfession}`);
+
+console.log(`Username: ${userName}
+             Adult: ${isAdult}
+             Profession: ${userProfession}`);      
 /*
 . Addition using prompt
 
@@ -47,3 +61,17 @@ prompt("Please Enter your Name ");
   - Log using console.log [numA - numB]
   - Log using console.log [numA * numB]
 */
+let numA = prompt("Please enter a number");
+
+let numB = prompt("Please enter another number");
+
+alert(Number(numA) + Number(numB));
+
+alert(numA - numB);
+
+alert(numA * numB);
+
+console.log(numA - numB);
+
+console.log(numA * numB);
+
