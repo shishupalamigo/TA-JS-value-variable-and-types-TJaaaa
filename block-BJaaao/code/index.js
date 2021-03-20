@@ -1,5 +1,4 @@
 // Using alert, prompt, confirm and console
-
 /*
 
 1. Do the following using `alert` function. When you find any square bracket
@@ -16,6 +15,9 @@ let num2 = 32;
 - Alert `The value of num1 is [num1] and the value of num2 is [num2]`
 - Alert `The sum of [num1] and [num2] is [num1 + num1]`
 */
+let language = "JavaScript";
+alert(`I am learning ${language}`);
+alert(`The value of num1 is ${num1} and the value of num2 is ${num2}`);
 
 /*
 2. Do the following using `alert`, `prompt` and `confirm` and `console`
@@ -32,6 +34,8 @@ let num2 = 32;
     Adult: [isAdult]
     Profession: [userProfession]` (it should be in three different lines)
 */
+prompt("Please Enter your Name ");
+
 
 /*
 . Addition using prompt
