@@ -61,11 +61,11 @@ console.log(`Username: ${userName}
   - Log using console.log [numA - numB]
   - Log using console.log [numA * numB]
 */
-let numA = prompt("Please enter a number");
+let numA = Number(prompt("Please enter a number"));
 
-let numB = prompt("Please enter another number");
+let numB = Number(prompt("Please enter another number"));
 
-alert(Number(numA) + Number(numB));
+alert (numA + numB);
 
 alert(numA - numB);
 
