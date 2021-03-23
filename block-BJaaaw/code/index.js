@@ -50,11 +50,11 @@ if (houseName === "stark" || houseName === "Stark" || houseName === "STARK") {
 
 // 5. Convert the above code using`?` terniary operator
 
-let houseName = prompt("Which House You Belong to?");
+let houseName = prompt("Which House from GOT you relate to?");
 houseName === "stark" ? alert("Winter is coming") 
-              : (houseName === "lannister" ? 
+              : houseName === "lannister" ? 
                 alert("lannister always pays his debt") 
-              : alert ("All men must die")); 
+              : alert ("All men must die"); 
 
 // Switch
 
