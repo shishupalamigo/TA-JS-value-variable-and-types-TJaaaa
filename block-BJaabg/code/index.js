@@ -16,3 +16,10 @@ var amount = 0;
 // your code goes here
 
 // ⛑ Answer of the above will `$334.76`.
+
+let i = 0;
+amount = ((PHONE_PRICE * i) + (ACCESSORY_PRICE * i)) + ((PHONE_PRICE * i) + (ACCESSORY_PRICE * i))* TAX_RATE 
+while (bank_balance - amount > 0 ) {
+    i= i + 1 ;
+    console.log(amount);
+}
