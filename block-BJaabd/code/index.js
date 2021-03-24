@@ -79,32 +79,32 @@ Take a number value from user and alert the message if it matches the conditions
 */
 // [Your code goes here]
 let enteredNumber = +prompt("Enter a number from 1-9!");
-switch(true) {
-  case enteredNumber == 1 :
+switch(enteredNumber) {
+  case 1 :
     alert(`ONE`);
     break;
-  case enteredNumber == 2 :
+  case 2 :
     alert(`TWO`);
     break;
-  case enteredNumber == 3 :
+  case 3 :
     alert(`THREE`);
     break;
-  case enteredNumber == 4 :
+  case 4 :
     alert(`FOUR`);
     break;
-  case enteredNumber == 5 :
+  case 5 :
     alert(`FIVE`);
     break;
-  case enteredNumber == 6 :
+  case 6 :
     alert(`SIX`);
     break;
-  case enteredNumber == 7 :
+  case 7 :
     alert(`SEVEN`);
     break;
-  case enteredNumber == 8 :
+  case 8 :
     alert(`EIGHT`);
     break;
-  case enteredNumber == 9 :
+  case 9 :
     alert(`NINE`);
     break;
   default : 
@@ -189,7 +189,11 @@ let num2 = +prompt('Enter num2');
 let num3 = +prompt('Enter num3');
 
 let product = num1 * num2 * num3;
-alert(Math.sign(product));
+if (product > 0) {
+  alert(`The final value is positive`)
+} else {
+  alert(`The final value is negative`)
+}
 
 
 /* Calculator
@@ -210,6 +214,8 @@ let number1 = +prompt("Enter  Number1");
 let number2 = +prompt("Enter  Number2");
 let operation = prompt(`What Mathemetical operation you want to perform? 
                         add, sub, multiply or divide ?`  )
+
+// SWITCH STATEMENT
 
 switch (true) {
   case operation == "add" :
@@ -234,3 +240,4 @@ switch (true) {
     alert(`Enter a valid value`);
     break;
 }
+
